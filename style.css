@@ -1,7 +1,59 @@
-@font-face {
+html {
   font-family: 'Roboto', sans-serif;
+  display: flex;
 }
 
 header, footer {
   background-color: #1F2937;
+}
+
+.navbar {
+  display: inline;
+}
+
+.nav-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.nav-menu {
+  list-style-type: none;
+}
+
+.nav-menu a {
+  font-size: 18px;
+  color: #E5E7EB;
+  text-decoration: none;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #F9FAF8;
+}
+
+.hero p {
+  color: #E5E7EB;
+}
+
+.img-box {
+  border: 2px;
+  border-radius: 5px;
+  border-color: #3882F6;
+  height: 200px;
+  width: 200px;
+}
+
+.section-quote {
+  background-color: #E5E7EB;
+}
+
+blockquote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+}
+
+button {
+  background-color: #3882F6;
+  color: #F9FAF8;
 }
